@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configure Goal Widget"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/sf_pro_bold"/>
+
+    <!-- Title Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Goal Title"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        android:fontFamily="@font/sf_pro"/>
+
+    <EditText
+        android:id="@+id/edit_goal_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g. Current Goal"
+        android:inputType="text"
+        android:textColor="#121212"
+        android:textColorHint="#757575"
+        android:background="#EFEFEF"
+        android:padding="8dp"
+        android:fontFamily="@font/sf_pro"/>
+
+    <!-- Start Date Picker Button -->
+    <Button
+        android:id="@+id/btn_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2A2A2A"
+        android:text="Select Start Date"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/sf_pro_medium"/>
+
+    <!-- End Date Picker Button -->
+    <Button
+        android:id="@+id/btn_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#2A2A2A"
+        android:text="Select End Date"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/sf_pro_medium"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_save_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5252"
+        android:text="Add Widget"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="@font/sf_pro_bold"/>
+
+</LinearLayout>

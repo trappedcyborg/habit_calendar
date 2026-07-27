@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background: Pure Black -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Row 1: Box 1 (White), Box 2 (White), Box 3 (White) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M22,22 h18 v18 h-18 z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M45,22 h18 v18 h-18 z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M68,22 h18 v18 h-18 z"/>
+
+    <!-- Row 2: Box 4 (White), Box 5 (RED), Box 6 (Dark Gray) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M22,45 h18 v18 h-18 z"/>
+    <path android:fillColor="#FF5252" android:pathData="M45,45 h18 v18 h-18 z"/>
+    <path android:fillColor="#2A2A2A" android:pathData="M68,45 h18 v18 h-18 z"/>
+
+    <!-- Row 3: Box 7 (Dark Gray), Box 8 (Dark Gray), Box 9 (Dark Gray) -->
+    <path android:fillColor="#2A2A2A" android:pathData="M22,68 h18 v18 h-18 z"/>
+    <path android:fillColor="#2A2A2A" android:pathData="M45,68 h18 v18 h-18 z"/>
+    <path android:fillColor="#2A2A2A" android:pathData="M68,68 h18 v18 h-18 z"/>
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Uses your exact existing hex color -->
+    <solid android:color="#121212" />
+
+    <!-- 16dp rounded corners (standard modern Android widget radius) -->
+    <corners android:radius="16dp" />
+</shape>
