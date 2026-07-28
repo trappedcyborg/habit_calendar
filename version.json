@@ -1,6 +1,6 @@
 {
-  "version": "1.5.2",
-  "version_code": 5,
+  "version": "1.5.3",
+  "version_code": 6,
   "download_url": "https://github.com/trappedcyborg/habit_calendar/releases/download/v1.5.2/GridCalendarView_v1.5.2.apk",
   "release_notes": "Fixed Widget Function and Compatibility Issues"
 }
